@@ -11,9 +11,9 @@ const SeccionNavbar = () => {
 
                 <nav className='flex '>
                     <ul className='flex flex-row gap-12 font-light'>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#products">Products</a></li>
-                        <li><a href="#newsfeed">Newsfeed</a></li>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#productos">Productos</a></li>
+                        <li><a href="#nuevos">Nuevos</a></li>
                         <li><a href="#promo">Promo</a></li>
                     </ul>
                 </nav>
@@ -27,8 +27,8 @@ const SeccionNavbar = () => {
                     </div>
 
                     <div className='flex gap-3'>
-                        <button>Sign Up</button>
-                        <button className='bg-black text-white rounded-3xl w-28 p-2' >Login</button>
+                        <button>Registrate</button>
+                        <button className='bg-black text-white rounded-3xl w-28 p-2' >Iniciar Sesion</button>
                     </div>
                 </div>
             </div>
@@ -37,3 +37,4 @@ const SeccionNavbar = () => {
 }
 
 export { SeccionNavbar }
+

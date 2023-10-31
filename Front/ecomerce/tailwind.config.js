@@ -5,7 +5,13 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      spacing:{
+        'Home': '40rem',
+        'hDivSecundarioHome':'70%',
+        'wDivSecundarioHome':'91%',
+      }
+    },
   },
   plugins: [],
 }
