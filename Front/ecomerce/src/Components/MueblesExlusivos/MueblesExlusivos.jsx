@@ -8,25 +8,25 @@ const MueblesExlusivos = () => {
     return(
         <div className='w-[90%] m-auto'>
             <div>
-                <h1 className='text-center'>Muebles Exclusivos</h1>
-                <p className='text-center'>Consulte la selección de productos populares de esta semana que podrían llamarle la atención y no</p>
+                <h1 className='text-center p-2 font-bold text-2xl'>Muebles Exclusivos</h1>
+                <p className='text-center p-2'>Consulte la selección de productos populares de esta semana que podrían llamarle la atención y no.</p>
             </div>
-            <div className='flex gap-5 justify-center'>
-                <div className='w-48 h-48'>
-                    <img src={LR} alt="Living Room" className='rounded-md' />
-                    <p className='text-center'>Sala de estar</p>
+            <div className='flex gap-5 justify-center flex-wrap'>
+                <div className='w-[260px] h-[390px] text-center p-5 text-sm'>
+                    <img src={LR} alt="Living Room" className='rounded-md w-full h-full' />
+                    <p className='font-bold'>Sala de estar</p>
                 </div>
-                <div className='w-48 h-48'>
-                    <img src={BR} alt="Bedroom" className='rounded-md' />
-                    <p className='text-center'>Dormitorio</p>
+                <div className='w-[260px] h-[390px] text-center p-5 text-sm'>
+                    <img src={BR} alt="Bedroom" className='rounded-md w-full h-full' />
+                    <p className='font-bold'>Dormitorio</p>
                 </div>
-                <div className='w-48 h-48'>
-                    <img src={WS} alt="WorkSpace" className='rounded-md' />
-                    <p className='text-center'>Espacio de Trabajo</p>
+                <div className='w-[260px] h-[390px] text-center p-5 text-sm'>
+                    <img src={WS} alt="WorkSpace" className='rounded-md w-full h-full' />
+                    <p className='font-bold'>Espacio de Trabajo</p>
                 </div>
-                <div className='w-48 h-48'>
-                    <img src={KC} alt="Kitchen" className='rounded-md' />
-                    <p className='text-center'>Cocina</p>
+                <div className='w-[260px] h-[390px] text-center p-5 text-sm'>
+                    <img src={KC} alt="Kitchen" className='rounded-md w-full h-full' />
+                    <p className='font-bold'>Cocina</p>
                 </div>
             </div>
         </div>
