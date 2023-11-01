@@ -2,7 +2,7 @@ import React from 'react';
 
 const SeccionNavbar = () => {
     return (
-        <div className='fixed flex flex-row justify-evenly items-center w-full h-20 '>
+        <div className='fixed flex flex-row justify-evenly items-center w-full h-20 bg-white z-200'>
 
             <div className='flex flex-row justify-evenly w-1/2 h-full items-center'>
                 <div>
