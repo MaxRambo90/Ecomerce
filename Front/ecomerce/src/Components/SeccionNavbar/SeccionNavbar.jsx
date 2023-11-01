@@ -19,7 +19,7 @@ const SeccionNavbar = () => {
                 </nav>
             </div>
 
-            <div className='flex flex-row w-1/2 justify-end pr-14 '>
+            <div className='flex flex-row w-1/2 justify-end'>
                 <div className='flex flex-row justify-around gap-6 items-center '>
                     <div>
                         <button><i class="bi bi-search text-black p-3"></i></button> 
