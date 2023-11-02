@@ -1,20 +1,41 @@
 import React from 'react';
-import Living from '../../assets/living.png';
 
 const SeccionHome = () => {
-    return(
-        <div className='flex justify-center items-center h-Home w-full'>
-                <div className='w-wDivSecundarioHome h-hDivSecundarioHome z-100 relative'>
-                    <img src={Living} alt="LIVING" className='w-full h-full flex border rounded-xl object-cover relative' />
-                    <div className='absolute top-0 left-0 w-full h-full bg-gray-600/50'></div>
-                    <h1 className='font-bold text-6xl absolute w-full top-10 left-48 text-white'>Encuentre aqui <br /> los mejores <br />muebles para su hogar</h1>
-                    <p className='font-bold absolute w-full bottom-40 left-48 text-white' >Las sillas de acento en Herman Miller incluyen un claro acento de diseño moderno de mediados del siglo</p>
-                    <button className='bg-slate-900 h-14 w-48 rounded-2xl text-white hover:bg-slate-400 absolute font-bold left-44 bottom-12'>Comprar ahora</button>
+    return (
+        <div className="relative h-screen w-[90%] m-auto">
+            <div className="relative h-full w-full">
+
+                <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black z-10"></div>
+
+                <div className="relative h-full w-full bg-cover bg-center bg-no-repeat bg-living">
+
+                    <div className="h-full w-[90%] m-auto flex flex-col text-white justify-center items-start">
+
+                        <div className='h-[33%] z-100 flex items-center'>
+                            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-white">
+                                Encuentre aquí los mejores muebles para su hogar
+                            </h1>
+                            <h1>Hola</h1>
+                            <h1>Hola</h1>
+                        </div>
+
+                        <div className='h-[33%] z-100 flex items-center'>
+                            <p className="text-sm md:text-base lg:text-lg mb-6 text-white">
+                                   Las sillas de acento en Herman Miller incluyen un claro acento de diseño moderno de mediados del siglo
+                            </p>
+                        </div>
+
+                        <div className='h-[33%] z-100 flex items-center'>
+                            <button className="text-white bg-transparent border border-white py-2 px-4 rounded-full transition-all hover:bg-white   hover:text-black w-fit">
+                                Comprar ahora
+                            </button>
+                        </div>
+
+                    </div>
                 </div>
+            </div>
         </div>
-    )
-}
+    );
+};
 
-export { SeccionHome }
-
-
+export { SeccionHome };

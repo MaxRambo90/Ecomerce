@@ -11,9 +11,13 @@ export default {
           '200':'200',
       },
       spacing:{
-        'Home': '40rem',
-        'hDivSecundarioHome':'70%',
-        'wDivSecundarioHome':'91%',
+        'Home': '10rem',
+      },
+      colors: {
+        'anotherBlack': '#2f2f2f',
+      },
+      backgroundImage: {
+        'living': "url('./src/assets/living.png')",
       }
     },
   },
