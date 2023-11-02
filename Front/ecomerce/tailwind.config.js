@@ -6,6 +6,10 @@ export default {
   ],
   theme: {
     extend: {
+      colors:{
+        'anotherBlack': '#2f2f2f',
+        'anotherGray': '#4c4c4c'
+      },
       zIndex:{
           '100':'100',
           '200':'200',
@@ -14,6 +18,12 @@ export default {
         'Home': '40rem',
         'hDivSecundarioHome':'70%',
         'wDivSecundarioHome':'91%',
+        '640':'640px',
+        '770':'770px',
+      },
+      screens:{
+        'Celular':'700px',
+        'NueveSiete':'907px',
       }
     },
   },
