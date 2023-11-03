@@ -1,7 +1,7 @@
 import React from 'react';
 
 const SeccionHome = () => {
-    return (
+    return(
         <div className="relative h-screen w-[90%] m-auto">
             <div className="relative h-full w-full">
 
@@ -35,7 +35,7 @@ const SeccionHome = () => {
                 </div>
             </div>
         </div>
-    );
-};
+    )
+}
 
-export { SeccionHome };
+export { SeccionHome }

@@ -6,6 +6,10 @@ export default {
   ],
   theme: {
     extend: {
+      colors:{
+        'anotherBlack': '#2f2f2f',
+        'anotherGray': '#4c4c4c'
+      },
       zIndex:{
           '100':'100',
           '200':'200',

@@ -16,7 +16,7 @@ function App() {
   return (
     <>
       <SeccionNavbar/>
-      <Espaciador/>
+      
       <SeccionHome/>
       <MueblesExlusivos/>
       <CaracteristicasEspeciales/>
