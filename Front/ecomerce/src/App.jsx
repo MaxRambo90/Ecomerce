@@ -7,8 +7,8 @@ import './App.css'
 import { CaracteristicasEspeciales } from './Components/CaracteristicasEspeciales/CaracteristicasEspeciales'
 import { Ofertas } from './Components/Ofertas/Ofertas'
 import { ProductosPopulares } from './Components/ProductosPopulares/ProductosPopulares'
-import { ReseniaClientes } from './Components/ReseniaClientes/ReseniaClientes'
 import { Footer } from './Components/Footer/Footer'
+import CardSlider from './Components/CardSlider/CardSlider'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -22,7 +22,7 @@ function App() {
       <CaracteristicasEspeciales/>
       <Ofertas/>
       <ProductosPopulares/>
-      <ReseniaClientes/>
+      <CardSlider/>
       <Footer/>
     </>
   )
