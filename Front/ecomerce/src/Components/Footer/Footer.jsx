@@ -86,16 +86,15 @@ const Footer = () => {
             Sea el primero en obtener información sobre descuentos y ofertas
             atractivas de kursiku.com
           </p>
-          <form action="">
-            <div className="flex space-x-2">
+
+          <form action="" className="h-fit flex items-center">
+            <div className="block md:flex md:flex-wrap space-x-2">
               <input
-                className="outline-none rounded h-8 text-slate-600 "
+                className="outline-none rounded text-slate-600 p-2 mb-2 md:mb-0 w-fit"
                 type="email"
                 placeholder="Ingresa tu email"
               />
-              <button className="border rounded-md border-slate-400 text-slate-400 text-sm h-8 w-20 hover:border-slate-300 hover:text-slate-300 duration-200">
-                Subscribite
-              </button>
+              <button className=" border-white text-white w-fit  border-2  rounded-lg px-2">Suscribite</button>
             </div>
           </form>
         </div>
