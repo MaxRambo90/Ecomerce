@@ -8,7 +8,7 @@ export default {
     extend: {
       colors:{
         'anotherBlack': '#2f2f2f',
-        'anotherGray': '#4c4c4c'
+        'anotherGray': '#4c4c4c',
       },
       zIndex:{
           '100':'100',
@@ -17,9 +17,6 @@ export default {
       spacing:{
         'Home': '10rem',
       },
-      colors: {
-        'anotherBlack': '#2f2f2f',
-      },
       backgroundImage: {
         'living': "url('./src/assets/living.png')",
       }
@@ -27,4 +24,3 @@ export default {
   },
   plugins: [],
 }
-
