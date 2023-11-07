@@ -7,7 +7,7 @@ const SeccionNavbar = () => {
     setMenu((prevState) => !prevState);
   };
 
-  const [carrito, setCarrito] = useState(false);
+  const [carrito, setCarrito] = useState(true);
 
   const hacerClick = () => {
     setCarrito((prevState) => !prevState);
