@@ -29,7 +29,7 @@ const CaracteristicasEspeciales = () => {
     },
   ];
   return (
-    <div className="w-full  mt-16">
+    <div className="w-full px-5 mt-16">
       <div className=" text-center">
         <h3 className="font-bold text-2xl ">
           Nuestras caracteristias especiales para ti{" "}

@@ -83,32 +83,33 @@ function CardSlider() {
   const totalTestimonials = testimonials.length;
 
   return (
-    <div className="bg-gray-100 w-[90%] m-auto my-20">
-      <div className="w-full flex">
-
-        <div className="w-[70%] flex p-20">
+    <div className="bg-gray-100 w-[90%]  m-auto my-20">
+      <div className="w-full flex flex-col lg:flex lg:flex-row">
+        <div className="w-full  lg:w-[70%] flex p-20">
           <div className="w-full">
             <h2 className="text-4xl font-bold text-black mb-4">
               Esto es lo que dicen
             </h2>
 
-            <h3 className="text-black text-2xl font-bold mt-2">
-                ❝ {currentTestimonial.title}
+            <h3 className="text-black text-2xl font-bold mt-2 overflow">
+              ❝ {currentTestimonial.title}
             </h3>
 
             <p className="text-gray-600 mt-5">{currentTestimonial.comment}</p>
 
             <div className="flex  justify-between items-center space-x-3">
               <div>
-              <p className="text-black text-2xl font-bold mt-2">{currentTestimonial.name}</p>
-              <p className="text-gray-500">{currentTestimonial.job}</p>
+                <p className="text-black text-2xl font-bold mt-2">
+                  {currentTestimonial.name}
+                </p>
+                <p className="text-gray-500">{currentTestimonial.job}</p>
               </div>
               <div className="flex justify-center items-center space-x-3">
                 <button
                   onClick={prevTestimonial}
                   className=" text-gray-600 hover:text-gray-800"
                 >
-                  <i class="bi bi-arrow-left-circle-fill text-4xl text-anotherBlack"></i>
+                  <i className="bi bi-arrow-left-circle-fill text-4xl text-anotherBlack"></i>
                 </button>
 
                 <div className=" text-gray-600">
@@ -116,22 +117,21 @@ function CardSlider() {
                 </div>
 
                 <button onClick={nextTestimonial} className="">
-                  <i class="bi bi-arrow-right-circle-fill text-4xl text-anotherBlack"></i>
+                  <i className="bi bi-arrow-right-circle-fill text-4xl text-anotherBlack"></i>
                 </button>
               </div>
             </div>
           </div>
         </div>
 
-        <div className="w-[30%] flex">
+        <div className="w-full lg:w-[30%] flex  ">
           <img
             src={currentTestimonial.image}
             alt={currentTestimonial.name}
-            className="w-full rounded-lg object-cover object-center"
+            className="w-full rounded-lg   object-cover object-center"
           />
         </div>
       </div>
-
     </div>
   );
 }
