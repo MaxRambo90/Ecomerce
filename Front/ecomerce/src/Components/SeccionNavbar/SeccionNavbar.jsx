@@ -1,4 +1,5 @@
 import { useState } from "react";
+import SearchBar from "../SearchBar/SearchBar";
 
 const SeccionNavbar = () => {
   const [menu, setMenu] = useState(false);
@@ -23,14 +24,13 @@ const SeccionNavbar = () => {
             ></i>
           </span>
           <a href="#home">
-            <h1 className="font-bold text-2xl  lg:pr-20">KURSIKU</h1>
+            <h1 className="text-xs md:font-bold md:text-2xl lg:pr-20">KURSIKU</h1>
           </a>
 
           <nav className="flex ">
             <ul
-              className={` ${
-                menu ? "left-0" : "left-[-350px]"
-              } flex-col absolute  rounded-b-lg left-0 bg-white right-22 mx-auto top-10 w-72 trasition-all ease-in duration-500   lg:flex lg:flex-row lg:gap-12 lg:font-light lg:static`}
+              className={` ${menu ? "left-0" : "left-[-350px]"
+                } flex-col absolute  rounded-b-lg left-0 bg-white right-22 mx-auto top-10 w-72 trasition-all ease-in duration-500   lg:flex lg:flex-row lg:gap-12 lg:font-light lg:static`}
             >
               <li className="p-2 mb-5  hover:bg-slate-200 active:bg-slate-400 rounded-lg lg:mb-0">
                 <a href="#inicio">Inicio</a>
@@ -49,10 +49,11 @@ const SeccionNavbar = () => {
         </div>
         <div className="flex flex-row  justify-end">
           <div className="flex flex-row justify-around md:gap-6 items-center ">
-            <div>
-              <button>
-                <i className="bi bi-search text-black p-3 hover:bg-slate-200 active:bg-slate-400 rounded-lg"></i>
-              </button>
+
+            <div className="flex items-center space-x-4">
+              <div className="flex items-center">
+                <SearchBar />
+              </div>
 
               <button>
                 <i
@@ -66,9 +67,9 @@ const SeccionNavbar = () => {
                 ${carrito ? "right-[-350px]" : "right-12"} 
                 flex flex-col absolute  justify-center items-center pb-8  rounded-b-lg   left-22 bg-white right-0 mx-auto top-20   w-72 trasition-all ease-in duration-500  `}
                 >
-                  <li className="mb-5">carrito vacio</li>
+                  <li className="mb-5">Carrito vacio</li>
                   <button className="bg-anotherBlack hover:bg-anotherGray text-white rounded-xl w-28 p-2">
-                    Vacias Carrito
+                    Vaciar Carrito
                   </button>
                 </ul>
               </button>
