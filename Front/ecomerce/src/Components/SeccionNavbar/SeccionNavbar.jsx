@@ -22,8 +22,8 @@ const SeccionNavbar = () => {
               onClick={handleClick}
             ></i>
           </span>
-          <a href="#home">
-            <h1 className="font-bold text-2xl  lg:pr-20">KURSIKU</h1>
+          <a href="#">
+            <h1 className="font-bold text-xl md:text-2xl  lg:pr-20">KURSIKU</h1>
           </a>
 
           <nav className="flex ">

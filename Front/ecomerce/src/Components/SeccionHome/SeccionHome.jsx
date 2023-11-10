@@ -2,7 +2,7 @@ import React from "react";
 
 const SeccionHome = () => {
   return (
-    <div className=" h-screen w-[90%] m-auto ">
+    <div id="inicio" className=" h-screen w-[90%] m-auto ">
       <div className="relative h-full w-full">
         <div className="absolute inset-0 bg-gradient-to-l from-transparent to-black z-10  rounded-lg"></div>
 

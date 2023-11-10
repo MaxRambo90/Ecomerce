@@ -6,7 +6,7 @@ import silla4 from "../../assets/silla4.png";
 
 const ProductosPopulares = () => {
   return (
-    <div className="w-[90%] m-auto items-center text-center">
+    <div className="w-[90%] m-auto items-center text-center" id="productos">
 
       <div className="text-start">
         <div className="w-full block md:flex md:justify-evenly md:flex-wrap">
