@@ -17,7 +17,7 @@ const SearchBar = () => {
   };
 
   return (
-    <div className="flex items-center">
+    <div className="hidden 391:flex 391:items-center">
       <button
         onClick={toggleSearchVisibility}
         className="ml-2 hover:bg-slate-200 p-2 rounded"
